@@ -1,0 +1,78 @@
+# This file created by conda-build 3.22.0
+# meta.yaml template originally from:
+# /opt/conda, last modified Fri Nov  4 12:34:21 2022
+# ------------------------------------------------
+
+package:
+  name: dgl-cuda11.3
+  version: 0.9.1post1
+source:
+  git_rev: 0.9.x
+  git_url: https://github.com/dmlc/dgl.git
+build:
+  script_env:
+    - CACHEDIR
+    - CUDA_VER
+    - USE_CUDA
+  string: py39_0
+requirements:
+  build:
+    - _libgcc_mutex 0.1 main
+    - _openmp_mutex 5.1 1_gnu
+    - bzip2 1.0.8 h7b6447c_0
+    - c-ares 1.18.1 h7f8727e_0
+    - ca-certificates 2022.10.11 h06a4308_0
+    - certifi 2022.9.24 py39h06a4308_0
+    - cmake 3.22.1 h1fce559_0
+    - curl 7.85.0 h5eee18b_0
+    - cython 0.29.32 py39h6a678d5_0
+    - expat 2.4.9 h6a678d5_0
+    - gettext 0.21.0 hf68c758_0
+    - git 2.34.1 pl5262hc120c5b_0
+    - icu 58.2 he6710b0_3
+    - krb5 1.19.2 hac12032_0
+    - ld_impl_linux-64 2.38 h1181459_1
+    - libcurl 7.85.0 h91b91d3_0
+    - libedit 3.1.20210910 h7f8727e_0
+    - libev 4.33 h7f8727e_1
+    - libffi 3.3 he6710b0_2
+    - libgcc-ng 11.2.0 h1234567_1
+    - libgomp 11.2.0 h1234567_1
+    - libnghttp2 1.46.0 hce63b2e_0
+    - libnsl 2.0.0 h5eee18b_0
+    - libssh2 1.10.0 h8f2d780_0
+    - libstdcxx-ng 11.2.0 h1234567_1
+    - libuv 1.40.0 h7b6447c_0
+    - libxml2 2.9.14 h74e7548_0
+    - lz4-c 1.9.3 h295c915_1
+    - ncurses 6.3 h5eee18b_3
+    - openssl 1.1.1q h7f8727e_0
+    - pcre2 10.37 he7ceb23_1
+    - perl 5.32.1 0_h5eee18b_perl5
+    - pip 22.2.2 py39h06a4308_0
+    - python 3.9.13 haa1d7c7_2
+    - readline 8.2 h5eee18b_0
+    - rhash 1.4.1 h3c74f83_1
+    - setuptools 65.5.0 py39h06a4308_0
+    - sqlite 3.39.3 h5082296_0
+    - tk 8.6.12 h1ccaba5_0
+    - tzdata 2022f h04d1e81_0
+    - wheel 0.37.1 pyhd3eb1b0_0
+    - xz 5.2.6 h5eee18b_0
+    - zlib 1.2.13 h5eee18b_0
+    - zstd 1.5.2 ha4553b6_0
+  run:
+    - networkx
+    - numpy
+    - psutil
+    - python >=3.9,<3.10.0a0
+    - requests
+    - scipy
+    - tqdm
+about:
+  home: https://github.com/dmlc/dgl.git
+  license: Apache
+  license_file: /root/miniconda3/conda-bld/dgl-cuda11.3_1667576897764/work/LICENSE
+extra:
+  copy_test_source_files: true
+  final: true

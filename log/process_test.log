@@ -1,0 +1,12 @@
+2024-04-09 04:26:49,967  - __main__ - INFO - Starting process CTU_test dataset
+2024-04-09 04:26:51,079  - __main__ - INFO - Starting process CTU_test dataset
+2024-04-09 04:26:51,356  - __main__ - INFO - Strating node generation
+2024-04-09 04:26:51,365  - __main__ - INFO - total number of nodes :200
+2024-04-09 04:26:51,402  - __main__ - INFO - Node generation completed
+2024-04-09 04:26:51,402  - __main__ - INFO - Strating link generation
+2024-04-09 04:26:51,411  - __main__ - INFO - Strating get recordLayer
+2024-04-09 04:26:51,420  - __main__ - INFO - Got recordLayer
+2024-04-09 04:26:51,420  - __main__ - INFO - Strating compute knn-jaccard graph
+2024-04-09 04:26:52,803  - __main__ - INFO - knn-jaccard graph done
+2024-04-09 04:26:52,804  - __main__ - INFO - Strating generate Jaccard link
+2024-04-09 04:26:52,817  - __main__ - INFO - Link generation completed
